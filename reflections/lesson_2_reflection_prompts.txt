@@ -21,6 +21,10 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    If the two branches don't have any conflict, then they just merge.
+    If the two branches have any conflict, then git will mark the difference in the conflict files.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    automatically: easy, quick but the result may not be what you want.
+    manually: decide by people, but slow and low effiency.
